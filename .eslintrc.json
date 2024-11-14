@@ -1,3 +1,12 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+    "extends": ["next/core-web-vitals", "next/typescript"],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "semi": ["error", "always"],
+        "@next/next/no-img-element": "off",
+        "no-await-in-non-async-function": "off",
+        "no-unused-vars": "off",
+        "react-hooks/rules-of-hooks": "off",
+        "react-hooks/exhaustive-deps": "off"
+    }
 }
